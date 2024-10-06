@@ -1,5 +1,7 @@
 <?php
 
+// use core\Controller;
+
 class UserController extends Controller
 {
     private $userModel;
@@ -7,8 +9,9 @@ class UserController extends Controller
     public function __construct()
     {
         $this->loadModel('UserModel');
-        $this->userModel = new UserModel;
+        $this->userModel = new UserModel;        
     }
+
 
     public function login()
     {
