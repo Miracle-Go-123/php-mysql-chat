@@ -1,8 +1,6 @@
 # PHP Realtime Chat App
 Create a Chat Application using PHP MVC model with MySQL & JavaScript.
 
-## This source structure is cloned from project: [`yl-mvc-structure`](https://github.com/TanHongIT/yl-mvc-structure)
-
 # 1. Configuration requirements
 
     - Version PHP 7.2 and above
@@ -27,17 +25,11 @@ npm run build
 
 # 4. Download Database
 
-This is the path to the database file for you to download: [`/database/***.sql`](https://github.com/TanHongIT/PHP_Realtime_Chat_App/tree/main/database)
-
-Create a new database on **PHPMyAdmin** at your server (or any other database connection tool), then import the .sql file that you just downloaded.
+Create a new database on **PHPMyAdmin** at your server (or any other database connection tool), then import the .sql file in the database folder.
 
 # 5. Edit Connect Database
 
 You need to change the connection information to the database after you have cloned my repository so that the website can work.
-
-Path: [`/config/database.php`](https://github.com/TanHongIT/PHP_Realtime_Chat_App/tree/main/config)
-
-This is the path to the database file for you to download: [`/database/***.sql`](https://github.com/TanHongIT/PHP_Realtime_Chat_App/tree/main/database)
 
 ```php
 define('DB_HOST', 'localhost');
